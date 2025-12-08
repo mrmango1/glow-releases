@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Glow</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Mon, 08 Dec 2025 15:14:43 -0500</pubDate>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://mrmango1.github.io/glow-releases/Glow.zip" length="6828039" type="application/octet-stream" sparkle:edSignature="830tAo5WG5NFesVXrV4kbdw67T9M6YA8YZBfy1Hj8p1iA16TjHFiGvc9oM1rJsJ9aZ6idy8A/DTwWS4sshT2Aw=="/>
+        </item>
+    </channel>
+</rss>
