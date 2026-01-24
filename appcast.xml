@@ -11,7 +11,7 @@
             <description>
             <![CDATA[ <ul> <li>Esto parece una lista de funciones</li> <li>Esto parece una lista de funciones</li> <li>Esto parece una lista de funciones</li> <li>Esto parece una lista de funciones</li> </ul> ]]>
             </description>
-            <enclosure url="https://mrmango1.github.io/glow-releases/Glow%201.0.0.dmg" length="7560127" type="application/octet-stream" sparkle:edSignature="dGJUggOvxQmvmt+mRhDFaC91Er8hLXlWbWOdXxnJVElQKEhV3/2BbNoY58vi4BHwbOuvVGkf7+/vs3UM9xToCw=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.0.0/Glow.1.0.0.dmg" length="7560127" type="application/octet-stream" sparkle:edSignature="dGJUggOvxQmvmt+mRhDFaC91Er8hLXlWbWOdXxnJVElQKEhV3/2BbNoY58vi4BHwbOuvVGkf7+/vs3UM9xToCw=="/>
         </item>
     </channel>
 </rss>
