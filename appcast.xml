@@ -4,14 +4,14 @@
         <title>Glow</title>
         <item>
             <title>1.0.0</title>
-            <pubDate xml:lang="en">Mon, 08 Dec 2025 15:14:43 -0500</pubDate>
-            <sparkle:version>100</sparkle:version>
+            <pubDate>Sat, 24 Jan 2026 13:52:13 -0500</pubDate>
+            <sparkle:version>218</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
-            <![CDATA[ <ul> <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li> <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li> <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li> </ul> ]]>
+            <![CDATA[ <ul> <li>Esto parece una lista de funciones</li> <li>Esto parece una lista de funciones</li> <li>Esto parece una lista de funciones</li> <li>Esto parece una lista de funciones</li> </ul> ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/v1.0.0-beta.1/Glow.zip" sparkle:edSignature="830tAo5WG5NFesVXrV4kbdw67T9M6YA8YZBfy1Hj8p1iA16TjHFiGvc9oM1rJsJ9aZ6idy8A/DTwWS4sshT2Aw==" length="6828039" type="application/octet-stream"/>
+            <enclosure url="https://mrmango1.github.io/glow-releases/Glow%201.0.0.dmg" length="7560127" type="application/octet-stream" sparkle:edSignature="dGJUggOvxQmvmt+mRhDFaC91Er8hLXlWbWOdXxnJVElQKEhV3/2BbNoY58vi4BHwbOuvVGkf7+/vs3UM9xToCw=="/>
         </item>
     </channel>
 </rss>
