@@ -3,12 +3,27 @@
     <channel>
         <title>Glow</title>
         <item>
-            <title>1.0.0</title>
-            <pubDate>Sat, 24 Jan 2026 13:52:13 -0500</pubDate>
-            <sparkle:version>218</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <title>1.0.3</title>
+            <pubDate>Fri, 30 Jan 2026 12:35:21 -0500</pubDate>
+            <sparkle:version>236</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.0.0/Glow-1.0.0.dmg" length="7560127" type="application/octet-stream" sparkle:edSignature="dGJUggOvxQmvmt+mRhDFaC91Er8hLXlWbWOdXxnJVElQKEhV3/2BbNoY58vi4BHwbOuvVGkf7+/vs3UM9xToCw=="/>
+          <description>
+            <![CDATA[
+                <h3>Performance Improvements</h3>
+                <ul>
+                    <li><strong>Optimized Resource Usage:</strong> Significant reductions in CPU and RAM consumption through enhanced memory management and optimized image caching.</li>
+                    <li><strong>Smarter Background Operations:</strong> Resource-intensive tasks are now suspended when in fullscreen mode to maximize performance.</li>
+                </ul>
+
+                <h3>Fullscreen & Multi-Monitor Enhancements</h3>
+                <ul>
+                    <li><strong>Accurate Display Handling:</strong> Fullscreen detection now operates on a per-display basis, ensuring correct behavior in multi-monitor setups.</li>
+                    <li><strong>Improved Stability:</strong> Enhanced logic for handling fullscreen transitions and aggressive cleanup of orphaned panels to prevent visual glitches.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.0.3/Glow-1.0.3.dmg" length="7598778" type="application/octet-stream" sparkle:edSignature="+7bGPpK8vIr0/xHqd9AWXgBEoj8ko2fcZxGfXkFL7iPydcizaHNsnbBRMpHveHwaP+o82vGtZdAvtAwnHadbCQ=="/>
         </item>
     </channel>
 </rss>
