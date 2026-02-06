@@ -3,35 +3,20 @@
     <channel>
         <title>Glow</title>
         <item>
-            <title>1.0.6</title>
-            <pubDate>Thu, 05 Feb 2026 22:09:44 -0500</pubDate>
-            <sparkle:version>272</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <title>1.0.7</title>
+            <pubDate>Fri, 06 Feb 2026 14:28:11 -0500</pubDate>
+            <sparkle:version>284</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
             <![CDATA[
-                <h3>Fullscreen & Multi-Monitor</h3>
+                <h3>Improvements</h3>
                 <ul>
-                    <li><strong>Smarter Fullscreen Detection:</strong> Introduced an observer pattern for per-display fullscreen state tracking, ensuring accurate behavior across multiple monitors.</li>
-                    <li><strong>Improved Compatibility:</strong> Expanded the list of ignored applications for fullscreen detection to include screen recording processes.</li>
-                </ul>
-
-                <h3>Performance Optimizations</h3>
-                <ul>
-                    <li><strong>Faster Event Handling:</strong> Streamlined segment update handling and event monitoring with reactive debounce for improved responsiveness.</li>
-                    <li><strong>Direct Frame Updates:</strong> Replaced NotificationCenter-based frame updates with direct callback handlers, reducing overhead and improving efficiency.</li>
-                    <li><strong>Reduced Main Thread Contention:</strong> Offloaded heavy accessibility IPC operations to a dedicated background worker, minimizing UI freezes.</li>
-                </ul>
-
-                <h3>Cache & Accessibility Enhancements</h3>
-                <ul>
-                    <li><strong>Animation-Aware Caching:</strong> Cache refreshes are now deferred during active animations, preventing unnecessary operations and improving smoothness.</li>
-                    <li><strong>Smarter Retry Logic:</strong> User-initiated retries and settings access now bypass the circuit breaker for more reliable cache updates.</li>
-                    <li><strong>Enhanced Global Monitor Activation:</strong> Improved logic for global monitor activation with added stability.</li>
+                    <li><strong>Fullscreen Stability:</strong> Enhanced the reliability of fullscreen state tracking with improved observer management and smarter retry logic.</li>
                 </ul>
             ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.0.6/Glow-1.0.6.dmg" length="7743816" type="application/octet-stream" sparkle:edSignature="vhwLy1s2WOQZbZLck8a0GBu3xbXyxln97REwFow+iHS4X8oaYjBLFWwCLOqcSDS2ld6mxevYO3kK4P5YWi+6DQ=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.0.7/Glow-1.0.7.dmg" length="7772179" type="application/octet-stream" sparkle:edSignature="8TEwKQvVByMnfDY5faiTtMChgWd3RcrDCPKxE/3DzYpmrQBIPHIKsDwUhFuP/VP308Jc7SE276J7fGkOKn9PBg=="/>
         </item>
     </channel>
 </rss>
