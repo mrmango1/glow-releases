@@ -3,20 +3,28 @@
     <channel>
         <title>Glow</title>
         <item>
-            <title>1.0.7</title>
-            <pubDate>Fri, 06 Feb 2026 14:28:11 -0500</pubDate>
-            <sparkle:version>284</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <title>1.0.9</title>
+            <pubDate>Sat, 14 Feb 2026 09:17:15 -0500</pubDate>
+            <sparkle:version>290</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
             <![CDATA[
-                <h3>Improvements</h3>
+                <h3>New Features</h3>
                 <ul>
-                    <li><strong>Fullscreen Stability:</strong> Enhanced the reliability of fullscreen state tracking with improved observer management and smarter retry logic.</li>
+                    <li><strong>GlowBar:</strong> A brand new addition to your menu bar experience.</li>
+                    <li><strong>Item Count Badges:</strong> Keep track of your items with customizable badges right in the menu bar.</li>
+                </ul>
+
+                <h3>Drag & Drop Enhancements</h3>
+                <ul>
+                    <li><strong>Precision Control:</strong> Refactored drag path calculations for pinpoint accuracy during item organization.</li>
+                    <li><strong>Improved Stability:</strong> Adjusted sensitivity with a 50% overlap threshold to prevent accidental moves.</li>
+                    <li><strong>Visual Feedback:</strong> Added clear visual cues during drag operations to improve usability.</li>
                 </ul>
             ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.0.7/Glow-1.0.7.dmg" length="7772179" type="application/octet-stream" sparkle:edSignature="8TEwKQvVByMnfDY5faiTtMChgWd3RcrDCPKxE/3DzYpmrQBIPHIKsDwUhFuP/VP308Jc7SE276J7fGkOKn9PBg=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.0.9/Glow-1.0.9.dmg" length="8040433" type="application/octet-stream" sparkle:edSignature="8Wm2bgN0b22EkkgdlZkH5K1LqPY5hbPvi44WmeyEc6KzKvae6OP1UTRDpVPk1C1PIuwxt5rE/LXHnHItRRnHBA=="/>
         </item>
     </channel>
 </rss>
