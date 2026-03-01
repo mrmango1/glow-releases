@@ -3,28 +3,39 @@
     <channel>
         <title>Glow</title>
         <item>
-            <title>1.0.9</title>
-            <pubDate>Sat, 14 Feb 2026 09:17:15 -0500</pubDate>
-            <sparkle:version>290</sparkle:version>
-            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <title>1.1.2</title>
+            <pubDate>Sun, 01 Mar 2026 09:14:00 -0500</pubDate>
+            <sparkle:version>312</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
             <![CDATA[
                 <h3>New Features</h3>
                 <ul>
-                    <li><strong>GlowBar:</strong> A brand new addition to your menu bar experience.</li>
-                    <li><strong>Item Count Badges:</strong> Keep track of your items with customizable badges right in the menu bar.</li>
+                    <li><strong>Customizable Apple Logo:</strong> Personalize the Apple logo in your menu bar with new visual effects and dynamic colors that match your wallpaper.</li>
+                    <li><strong>Split View Mode:</strong> A beautiful new way to organize your menu bar with animated, separate sections featuring smooth transitions and highlights.</li>
+                    <li><strong>GlowBar Animations:</strong> Enjoy fluid animations when showing or hiding GlowBar, along with slick transitions when your content appears.</li>
                 </ul>
 
-                <h3>Drag & Drop Enhancements</h3>
+                <h3>Improvements</h3>
                 <ul>
-                    <li><strong>Precision Control:</strong> Refactored drag path calculations for pinpoint accuracy during item organization.</li>
-                    <li><strong>Improved Stability:</strong> Adjusted sensitivity with a 50% overlap threshold to prevent accidental moves.</li>
-                    <li><strong>Visual Feedback:</strong> Added clear visual cues during drag operations to improve usability.</li>
+                    <li><strong>Smoother Drag & Drop:</strong> Organizing your menu bar items is now more stable and precise, especially when moving items between different sections.</li>
+                    <li><strong>Refined Layout:</strong> The Glow Icon and GlowBar Toggle now stay neatly together, and GlowBar panels always center perfectly below their control items.</li>
+                    <li><strong>Updated Themes:</strong> The Vibrant and Obsidian appearance presets have been updated to seamlessly integrate with the new Apple logo customizations.</li>
+                    <li><strong>Better Performance:</strong> Enjoy snappier animations, improved hover interactions, faster app icon refreshing, and enhanced overall stability.</li>
+                </ul>
+
+                <h3>Bug Fixes</h3>
+                <ul>
+                    <li>Fixed an issue where menu bar icons could appear with incorrect sizing.</li>
+                    <li>Resolved layout issues with notification badges to ensure consistent spacing.</li>
+                    <li>Fixed a bug where item count badges wouldn't update immediately after dragging items.</li>
+                    <li>Ensured the "Always Hidden" section remembers your preferred item positions correctly.</li>
+                    <li>Improved accessibility descriptions for screen readers and other assistive tools.</li>
                 </ul>
             ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.0.9/Glow-1.0.9.dmg" length="8040433" type="application/octet-stream" sparkle:edSignature="8Wm2bgN0b22EkkgdlZkH5K1LqPY5hbPvi44WmeyEc6KzKvae6OP1UTRDpVPk1C1PIuwxt5rE/LXHnHItRRnHBA=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.1.2/Glow-1.1.2.dmg" length="7621868" type="application/octet-stream" sparkle:edSignature="Xo523ZUFxVjrUnR93fqW38HEUSmFRhejAxsPCdSM9hqVzcitZFn7JoIA/r7ZLPorABb9wq8Or6iYF6W70lr+Cg=="/>
         </item>
     </channel>
 </rss>
