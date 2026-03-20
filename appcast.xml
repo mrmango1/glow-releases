@@ -3,39 +3,42 @@
     <channel>
         <title>Glow</title>
         <item>
-            <title>1.1.2</title>
-            <pubDate>Sun, 01 Mar 2026 09:14:00 -0500</pubDate>
-            <sparkle:version>312</sparkle:version>
-            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <title>1.1.5</title>
+            <pubDate>Fri, 20 Mar 2026 13:35:15 -0500</pubDate>
+            <sparkle:version>372</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
             <![CDATA[
-                <h3>New Features</h3>
+                <h3>Visual Improvements</h3>
                 <ul>
-                    <li><strong>Customizable Apple Logo:</strong> Personalize the Apple logo in your menu bar with new visual effects and dynamic colors that match your wallpaper.</li>
-                    <li><strong>Split View Mode:</strong> A beautiful new way to organize your menu bar with animated, separate sections featuring smooth transitions and highlights.</li>
-                    <li><strong>GlowBar Animations:</strong> Enjoy fluid animations when showing or hiding GlowBar, along with slick transitions when your content appears.</li>
+                    <li><strong>Better Apple Logo Alignment:</strong> The Apple logo now sits perfectly on MacBook Pro and MacBook Air M2+ displays with a notch.</li>
+                    <li><strong>Refined Borders & Corners:</strong> Menu bar capsules now support fully rounded or sharp corners — choose the look that fits your style.</li>
+                    <li><strong>Improved Fullscreen Behavior:</strong> The overlay now correctly hides and reappears when you enter or exit fullscreen.</li>
                 </ul>
 
-                <h3>Improvements</h3>
+                <h3>Menu Bar Item Management</h3>
                 <ul>
-                    <li><strong>Smoother Drag & Drop:</strong> Organizing your menu bar items is now more stable and precise, especially when moving items between different sections.</li>
-                    <li><strong>Refined Layout:</strong> The Glow Icon and GlowBar Toggle now stay neatly together, and GlowBar panels always center perfectly below their control items.</li>
-                    <li><strong>Updated Themes:</strong> The Vibrant and Obsidian appearance presets have been updated to seamlessly integrate with the new Apple logo customizations.</li>
-                    <li><strong>Better Performance:</strong> Enjoy snappier animations, improved hover interactions, faster app icon refreshing, and enhanced overall stability.</li>
+                    <li><strong>Smoother Hover Detection:</strong> Hovering over the hidden section area now responds more fluidly.</li>
+                    <li><strong>More Reliable Clicks:</strong> Improved detection to tell apart a click from a drag, so you no longer trigger accidental actions.</li>
+                </ul>
+
+                <h3>Stability & Performance</h3>
+                <ul>
+                    <li><strong>Automatic Recovery After Sleep:</strong> Glow now correctly reconfigures itself when your Mac wakes from sleep.</li>
+                    <li><strong>Hidden Item Count Badge On by Default:</strong> You can always see at a glance how many items are tucked away in your hidden section.</li>
+                    <li><strong>General Performance Improvements:</strong> Internal optimizations for smoother overall experience and lower resource usage.</li>
                 </ul>
 
                 <h3>Bug Fixes</h3>
                 <ul>
-                    <li>Fixed an issue where menu bar icons could appear with incorrect sizing.</li>
-                    <li>Resolved layout issues with notification badges to ensure consistent spacing.</li>
-                    <li>Fixed a bug where item count badges wouldn't update immediately after dragging items.</li>
-                    <li>Ensured the "Always Hidden" section remembers your preferred item positions correctly.</li>
-                    <li>Improved accessibility descriptions for screen readers and other assistive tools.</li>
+                    <li>Fixed capsule spacing on both notch and non-notch displays.</li>
+                    <li>Fixed overlay misalignment that could occur after dragging items.</li>
+                    <li>Improved detection of popups and system windows to avoid interference with the menu bar.</li>
                 </ul>
             ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.1.2/Glow-1.1.2.dmg" length="7621868" type="application/octet-stream" sparkle:edSignature="Xo523ZUFxVjrUnR93fqW38HEUSmFRhejAxsPCdSM9hqVzcitZFn7JoIA/r7ZLPorABb9wq8Or6iYF6W70lr+Cg=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.1.5/Glow-1.1.5.dmg" length="7720669" type="application/octet-stream" sparkle:edSignature="6EQiRlMjPN65OnpFnl/OkWu4sxhu5+CwKbLZoN3sk729K5zotp4iKKeLr6c/WWwZOOklznyHQTBKp0zV8Ao1BA=="/>
         </item>
     </channel>
 </rss>
