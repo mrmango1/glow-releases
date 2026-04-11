@@ -3,42 +3,34 @@
     <channel>
         <title>Glow</title>
         <item>
-            <title>1.1.5</title>
-            <pubDate>Fri, 20 Mar 2026 13:35:15 -0500</pubDate>
-            <sparkle:version>372</sparkle:version>
-            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <title>1.1.8</title>
+            <pubDate>Sat, 11 Apr 2026 11:24:47 -0500</pubDate>
+            <sparkle:version>384</sparkle:version>
+            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
             <![CDATA[
                 <h3>Visual Improvements</h3>
                 <ul>
-                    <li><strong>Better Apple Logo Alignment:</strong> The Apple logo now sits perfectly on MacBook Pro and MacBook Air M2+ displays with a notch.</li>
-                    <li><strong>Refined Borders & Corners:</strong> Menu bar capsules now support fully rounded or sharp corners — choose the look that fits your style.</li>
-                    <li><strong>Improved Fullscreen Behavior:</strong> The overlay now correctly hides and reappears when you enter or exit fullscreen.</li>
+                    <li><strong>Advanced Corner & Border Customization:</strong> You now have much more control over the look of your menu bar — customize the roundness and borders corner by corner to match your style.</li>
+                    <li><strong>Improved Vibrant Theme:</strong> The default profiles for the Vibrant appearance have been refined so the outlines look great right out of the box.</li>
+                    <li><strong>Cleaner Settings UI:</strong> We've simplified the visual customization panel by removing redundant options, making it much easier to personalize the app.</li>
                 </ul>
 
-                <h3>Menu Bar Item Management</h3>
+                <h3>Performance & Experience</h3>
                 <ul>
-                    <li><strong>Smoother Hover Detection:</strong> Hovering over the hidden section area now responds more fluidly.</li>
-                    <li><strong>More Reliable Clicks:</strong> Improved detection to tell apart a click from a drag, so you no longer trigger accidental actions.</li>
+                    <li><strong>Smarter Temporary Bar Display:</strong> The feature that temporarily reveals your menu bar has been significantly reworked — it now responds better to your clicks and plays more nicely with other apps running on your Mac.</li>
+                    <li><strong>Improved Reliability:</strong> When Glow repositions menu bar items on screen, it now restores them to their original position with greater precision and consistency, even when other apps cause unexpected lag or brief freezes.</li>
+                    <li><strong>Lower Resource Usage:</strong> Glow is now smarter about caching data in the background (such as your monitor layout and IDs), resulting in faster rendering and less CPU overhead.</li>
                 </ul>
 
-                <h3>Stability & Performance</h3>
+                <h3>Under the Hood</h3>
                 <ul>
-                    <li><strong>Automatic Recovery After Sleep:</strong> Glow now correctly reconfigures itself when your Mac wakes from sleep.</li>
-                    <li><strong>Hidden Item Count Badge On by Default:</strong> You can always see at a glance how many items are tucked away in your hidden section.</li>
-                    <li><strong>General Performance Improvements:</strong> Internal optimizations for smoother overall experience and lower resource usage.</li>
-                </ul>
-
-                <h3>Bug Fixes</h3>
-                <ul>
-                    <li>Fixed capsule spacing on both notch and non-notch displays.</li>
-                    <li>Fixed overlay misalignment that could occur after dragging items.</li>
-                    <li>Improved detection of popups and system windows to avoid interference with the menu bar.</li>
+                    <li><strong>Internal Cleanup:</strong> We've done a thorough cleanup to remove unnecessary internal noise from the app's code, making Glow run quieter and more efficiently behind the scenes.</li>
                 </ul>
             ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.1.5/Glow-1.1.5.dmg" length="7720669" type="application/octet-stream" sparkle:edSignature="6EQiRlMjPN65OnpFnl/OkWu4sxhu5+CwKbLZoN3sk729K5zotp4iKKeLr6c/WWwZOOklznyHQTBKp0zV8Ao1BA=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.1.8/Glow-1.1.8.dmg" length="7851432" type="application/octet-stream" sparkle:edSignature="6zAh/n1G2YHGI1yOXob1BGVzZc+bhLGuBQG1ykOrfd1MOiq08m4+I/v0kRIveBPEOlxjTZ9G5NP75D4kruIbAA=="/>
         </item>
     </channel>
 </rss>
