@@ -4,8 +4,8 @@
         <title>Glow</title>
         <item>
             <title>1.2.7</title>
-            <pubDate>Mon, 11 May 2026 22:34:42 -0500</pubDate>
-            <sparkle:version>496</sparkle:version>
+            <pubDate>Mon, 11 May 2026 23:23:49 -0500</pubDate>
+            <sparkle:version>567</sparkle:version>
             <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
@@ -45,7 +45,7 @@
                 </ul>
             ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.2.7/Glow-1.2.7.dmg" length="8482384" type="application/octet-stream" sparkle:edSignature="G0hJdTVDRNW0YknbOsjMiD1Ny0R3p390QxMjM21RGrhMaelz8HCA/wcvDVbSAhVwP9OihCB2Dq8eUMJQ2bsBAQ=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.2.7/Glow-1.2.7.dmg" length="8481832" type="application/octet-stream" sparkle:edSignature="4sI5kFbKwTXjq94Jt7569DVgTrVD8Nld1U/J+ICVjoEaf8CP4zQNBq3Q0ZLQ0wDk3/Kqv/itea8m1pA4A8GxBQ=="/>
         </item>
     </channel>
 </rss>
