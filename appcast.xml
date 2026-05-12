@@ -3,43 +3,49 @@
     <channel>
         <title>Glow</title>
         <item>
-            <title>1.2.1</title>
-            <pubDate>Sat, 18 Apr 2026 10:14:25 -0500</pubDate>
+            <title>1.2.7</title>
+            <pubDate>Mon, 11 May 2026 22:34:42 -0500</pubDate>
             <sparkle:version>496</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
             <![CDATA[
-                <h3>🎉 New Features</h3>
+                <h3>🚀 Much Faster Startup</h3>
                 <ul>
-                    <li><strong>Hide the Glow icon:</strong> Reclaim menu bar space — you can now hide the Glow icon entirely and access hidden items through your hotkey.</li>
-                    <li><strong>Hide the GlowBar toggle:</strong> Same idea for the GlowBar button. Keep the feature, lose the icon.</li>
-                    <li><strong>Choose where the GlowBar appears:</strong> Anchor it to your icon, align it to the right edge of the screen, or have it pop up right under your cursor — pick what fits your workflow.</li>
-                    <li><strong>Hover to reveal the GlowBar:</strong> Flick your mouse toward the GlowBar and it opens automatically. It hides again based on your rehide preferences.</li>
-                    <li><strong>Focused display only:</strong> If you use multiple monitors, Glow can now show its overlay only on the display you're actively working on, keeping the others clean.</li>
-                    <li><strong>Always-Hidden section ↔ GlowBar:</strong> Switch between the classic inline Hidden section and the floating GlowBar panel — items move over automatically, nothing gets lost.</li>
+                    <li>Glow now launches up to 3× faster. You'll see your customized menu bar almost instantly after opening the app or logging in.</li>
                 </ul>
 
-                <h3>✨ Improvements</h3>
+                <h3>🖱️ Lower CPU Usage</h3>
                 <ul>
-                    <li><strong>Clearer Essentials sections:</strong> Renamed to Startup & Dock and Display & Integration so each section's purpose is obvious.</li>
-                    <li><strong>Smarter Icon Animation tooltip:</strong> When Icon Animation can't be used (for example, with Motion off or the item counter enabled), the tooltip now tells you exactly why — no more guessing.</li>
-                    <li><strong>Smarter Contour Style option:</strong> The Contour Style picker only shows up when your corner radius are actually different. If all corners match, the option stays out of the way.</li>
-                    <li><strong>Reveal preferences stick:</strong> If you turn off hover, click, and scroll reveals on purpose, Glow remembers — it won't quietly re-enable hover when you relaunch.</li>
-                    <li><strong>Consistent section colors:</strong> Icons and accents across Settings now share the same section color, so the UI feels more coherent.</li>
+                    <li>If you use a gaming or high-polling-rate mouse, you'll notice less battery drain and lower CPU usage. Glow now only tracks your cursor when it's near the menu bar.</li>
                 </ul>
 
-                <h3>🐛 Fixes</h3>
+                <h3>✋ Dragging Icons Works Much Better</h3>
+                <p>Reorganizing your menu bar icons with Cmd + drag is now far more reliable:</p>
                 <ul>
-                    <li><strong>Fullscreen glitches gone:</strong> Capsules could flicker or draw incorrectly when entering fullscreen. Transitions are now clean.</li>
-                    <li><strong>Overlay no longer gets stuck after fullscreen:</strong> In rare cases Glow stayed "paused" after exiting fullscreen and wouldn't come back. It now reliably resumes.</li>
-                    <li><strong>Hidden capsule rendering is more reliable:</strong> Fixed inconsistencies in how the hidden section's capsule appeared depending on icon visibility.</li>
-                    <li><strong>Dragging items in Layout Settings feels better:</strong> Drag operations no longer collide with background animations — rearranging items is smoother and more responsive.</li>
-                    <li><strong>Better drag diagnostics under the hood:</strong> When drags fail or time out, Glow now captures more context so issues are easier to track down.</li>
+                    <li>Works correctly with icons that live behind the notch or off the visible screen area.</li>
+                    <li>Apps that used to "get stuck" while dragging (Discord, Bento Box, browsers, etc.) now respond much better.</li>
+                    <li>If an app quits right as you try to move its icon, Glow detects it instantly instead of hanging.</li>
+                    <li>Drags on external displays no longer interfere with the main display.</li>
+                </ul>
+
+                <h3>🛡️ Fewer Quirks</h3>
+                <ul>
+                    <li><strong>Hover no longer gets "stuck":</strong> if hovering over the bar sometimes failed to expand it, that's fixed.</li>
+                    <li><strong>Invisible cursor:</strong> in the rare case the cursor disappeared while reorganizing icons, Glow now restores it automatically.</li>
+                    <li><strong>Cursor tracking recovery:</strong> if macOS paused cursor detection due to a system timeout, Glow now re-enables it on its own — no restart needed.</li>
+                    <li>Switching apps mid-drag no longer breaks icon positions.</li>
+                </ul>
+
+                <h3>✨ Layout Improvements</h3>
+                <ul>
+                    <li>More accurate calculation of icon edges and positions in the bar.</li>
+                    <li>Better detection of the leftmost icon in complex configurations.</li>
+                    <li>Smoother, more stable animations and transitions while moving items.</li>
                 </ul>
             ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.2.1/Glow-1.2.1.dmg" length="8289453" type="application/octet-stream" sparkle:edSignature="nNfIexs63TVadyYwz0k3hRUTa+NC5SpvVycXpSUVcJqR+dr4KDpSPsyjbD1sMllYJEWFRuY8Exnm69Y0FR9WBA=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.2.7/Glow-1.2.7.dmg" length="8482384" type="application/octet-stream" sparkle:edSignature="G0hJdTVDRNW0YknbOsjMiD1Ny0R3p390QxMjM21RGrhMaelz8HCA/wcvDVbSAhVwP9OihCB2Dq8eUMJQ2bsBAQ=="/>
         </item>
     </channel>
 </rss>
