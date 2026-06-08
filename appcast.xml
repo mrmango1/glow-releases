@@ -3,49 +3,43 @@
     <channel>
         <title>Glow</title>
         <item>
-            <title>1.2.7</title>
-            <pubDate>Mon, 11 May 2026 23:23:49 -0500</pubDate>
-            <sparkle:version>567</sparkle:version>
-            <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
+            <title>2.0.0</title>
+            <pubDate>Sun, 07 Jun 2026 19:36:50 -0500</pubDate>
+            <sparkle:version>918</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
             <![CDATA[
-                <h3>🚀 Much Faster Startup</h3>
+                <h3>✨ New Features & Visual Improvements</h3>
                 <ul>
-                    <li>Glow now launches up to 3× faster. You'll see your customized menu bar almost instantly after opening the app or logging in.</li>
+                    <li><strong>New Element Search:</strong> Quickly search for your elements directly from the bar, allowing you to find what you need instantly.</li>
+                    <li><strong>Clearer Design Settings:</strong> We have completely redesigned the configuration panel. It is now more modern, clean, and easy to navigate, making it simpler to customize your experience.</li>
+                    <li><strong>Unified Option Cards:</strong> Configuration menus now use a consistent and elegant card design, making switching options much more intuitive.</li>
+                    <li><strong>Preview Improvements:</strong> Thumbnail and style editing now features a more responsive and eye-friendly design.</li>
                 </ul>
 
-                <h3>🖱️ Lower CPU Usage</h3>
+                <h3>🚀 Fluidity & Smart Behavior</h3>
                 <ul>
-                    <li>If you use a gaming or high-polling-rate mouse, you'll notice less battery drain and lower CPU usage. Glow now only tracks your cursor when it's near the menu bar.</li>
+                    <li><strong>Smoother Animations:</strong> The bar shows and hides much more fluidly, adapting better to your cursor movement and preventing accidental triggers or annoying flickering.</li>
+                    <li><strong>Smart Screen Adjustment:</strong> The bar positions itself more precisely below the system menu bar, avoiding overlaps or covering important macOS elements.</li>
+                    <li><strong>More Stable Element Layout:</strong> Fixed minor jumps or abrupt movements of the far-right icons when changing size or state. Everything now repositions smoothly and cleanly.</li>
                 </ul>
 
-                <h3>✋ Dragging Icons Works Much Better</h3>
-                <p>Reorganizing your menu bar icons with Cmd + drag is now far more reliable:</p>
+                <h3>⚡ Performance & Battery</h3>
                 <ul>
-                    <li>Works correctly with icons that live behind the notch or off the visible screen area.</li>
-                    <li>Apps that used to "get stuck" while dragging (Discord, Bento Box, browsers, etc.) now respond much better.</li>
-                    <li>If an app quits right as you try to move its icon, Glow detects it instantly instead of hanging.</li>
-                    <li>Drags on external displays no longer interfere with the main display.</li>
+                    <li><strong>System Optimization:</strong> Redesigned internal bar calculations to consume fewer CPU resources, resulting in faster response times and improved battery life for your Mac.</li>
+                    <li><strong>More Efficient Memory:</strong> Optimized memory usage to prevent overloading, ensuring the app runs flawlessly even during long sessions.</li>
                 </ul>
 
-                <h3>🛡️ Fewer Quirks</h3>
+                <h3>🛡️ Stability & Reliability</h3>
                 <ul>
-                    <li><strong>Hover no longer gets "stuck":</strong> if hovering over the bar sometimes failed to expand it, that's fixed.</li>
-                    <li><strong>Invisible cursor:</strong> in the rare case the cursor disappeared while reorganizing icons, Glow now restores it automatically.</li>
-                    <li><strong>Cursor tracking recovery:</strong> if macOS paused cursor detection due to a system timeout, Glow now re-enables it on its own — no restart needed.</li>
-                    <li>Switching apps mid-drag no longer breaks icon positions.</li>
-                </ul>
-
-                <h3>✨ Layout Improvements</h3>
-                <ul>
-                    <li>More accurate calculation of icon edges and positions in the bar.</li>
-                    <li>Better detection of the leftmost icon in complex configurations.</li>
-                    <li>Smoother, more stable animations and transitions while moving items.</li>
+                    <li><strong>Automatic Recovery:</strong> If the macOS gesture or click detection system experiences a temporary interruption, the app now recovers instantly on its own without needing a restart.</li>
+                    <li><strong>Enhanced Security:</strong> Strengthened internal security and the licensing system to better protect your personal information.</li>
+                    <li><strong>Silent Error Logging:</strong> The app now proactively detects and resolves minor background issues, ensuring a much more stable and seamless experience.</li>
                 </ul>
             ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/1.2.7/Glow-1.2.7.dmg" length="8481832" type="application/octet-stream" sparkle:edSignature="4sI5kFbKwTXjq94Jt7569DVgTrVD8Nld1U/J+ICVjoEaf8CP4zQNBq3Q0ZLQ0wDk3/Kqv/itea8m1pA4A8GxBQ=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/2.0.0/Glow-2.0.0.dmg" length="9340548" type="application/octet-stream" sparkle:edSignature="7syxzOo93rEyWibcINpXHps4GrQ10/MJ9tc0Wt2aT8w3qB5UwLGsPQ2mQKVCEoxisxl6ofVFwMdjX9aQG8OvCA=="/>
         </item>
     </channel>
 </rss>
