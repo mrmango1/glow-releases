@@ -3,57 +3,39 @@
     <channel>
         <title>Glow</title>
         <item>
-            <title>2.0.3</title>
-            <pubDate>Thu, 18 Jun 2026 07:51:45 -0500</pubDate>
-            <sparkle:version>972</sparkle:version>
-            <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
+            <title>2.1.3</title>
+            <pubDate>Thu, 09 Jul 2026 11:04:33 -0500</pubDate>
+            <sparkle:version>1003</sparkle:version>
+            <sparkle:shortVersionString>2.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
             <![CDATA[
-                <p>A release focused on stability, performance, and visual polish. It comes out of a thorough code audit: memory leaks, potential crashes, licensing errors, and several visual details were fixed. There are no big new features &mdash; this is a release to make Glow run smoother and lighter.</p>
-
-                <h3>🎨 Appearance & animations</h3>
+                <h3>✨ New</h3>
                 <ul>
-                    <li><strong>Capsule shadow fixed:</strong> on light desktops, capsules showed dark "corner" wedges because the shadow was rectangular and didn't follow the rounded shape. The shadow now traces the exact capsule outline.</li>
-                    <li><strong>More precise Glow capsule (Split = Off mode):</strong> the capsule height now matches the Classic style to the pixel (it used to inflate by ~1px per edge), and the expand animation no longer "cuts off" partway with 1px jumps.</li>
-                    <li><strong>"Minimal" inset level on notch displays:</strong> now sits midway between "Disabled" and "Deep," for a gradual progression instead of an abrupt jump.</li>
-                    <li><strong>Steadier panel transitions (GlowBar / search):</strong> the crossfade when revealing/hiding syncs better, avoiding flicker during the handoff.</li>
+                    <li><strong>Smoother shape-merging transitions:</strong> added polished transitions when GlowBar or Item Search opens within a menu-bar section.</li>
                 </ul>
 
-                <h3>🖥️ Multi-monitor</h3>
+                <h3>⚡ Improved</h3>
                 <ul>
-                    <li><strong>Capsules getting stuck hidden with multiple monitors:</strong> in multi-display setups, certain animations resolved "the first available screen" non-deterministically and could leave the real capsule hidden on the wrong monitor. Each animation is now anchored to the correct screen.</li>
+                    <li><strong>Liquid Glass capsules:</strong> their appearance now follows the selected Auto, Light, or Dark mode.</li>
+                    <li><strong>License and trial reliability:</strong> added a short offline grace period and clearer handling of revoked licenses versus temporary connection problems.</li>
+                    <li><strong>Responsiveness:</strong> improved the item layout editor and menu-bar startup path.</li>
                 </ul>
 
-                <h3>🖱️ Interaction</h3>
+                <h3>🛠️ Fixed</h3>
                 <ul>
-                    <li><strong>Show-on-hover failing again after opening the GlowBar:</strong> after revealing the GlowBar, the hidden section would stop expanding on hover and only respond to a click on the icon. Fixed.</li>
-                    <li><strong>More reliable temporary item show (temp-show):</strong> after returning from sleep/standby or opening a popup menu, the temporarily shown item returns to its place correctly instead of getting "lost."</li>
-                </ul>
-
-                <h3>🔑 Licensing</h3>
-                <ul>
-                    <li><strong>Activating offline no longer wipes your trial:</strong> previously, a network failure during activation could be mistaken for an invalid key and leave the app blocked or delete an active trial. A network error is now distinguished from a genuinely rejected key.</li>
-                    <li><strong>Offline grace period preserved:</strong> the "empty" grace message no longer appears after a temporary validation failure.</li>
-                    <li><strong>Clearer error messages:</strong> a key-storage problem is now reported as "re-enter your key" instead of a misleading "network error."</li>
-                </ul>
-
-                <h3>🧹 Stability & memory</h3>
-                <ul>
-                    <li><strong>Crashes prevented:</strong> fixed several cases where the app could abort (panels released at the wrong time) or hang waiting for a response that never arrived.</li>
-                    <li><strong>Memory leaks closed:</strong> system observers that were never released (screen changes, spaces, launching/quitting apps) now clean themselves up; icon images for apps that have already disappeared are discarded instead of piling up.</li>
-                    <li><strong>Proper shutdown on quit:</strong> the full cleanup sequence (panels, event monitors, tasks) now actually runs when you exit.</li>
-                    <li><strong>Memory pressure is handled more efficiently</strong> so it doesn't saturate the main thread.</li>
-                </ul>
-
-                <h3>⚡ Performance</h3>
-                <ul>
-                    <li><strong>Less CPU when moving the mouse across the bar:</strong> the cursor position is read once per cycle (previously ~10 times), and expensive "empty space" checks are only evaluated when needed.</li>
-                    <li><strong>Less redundant drawing work:</strong> re-rendering of shapes and paths is skipped when nothing changes, and animation timers that piled up during fast app-switching were eliminated.</li>
+                    <li><strong>GlowBar flicker:</strong> fixed a flicker and occasional double-open when revealing GlowBar with the pointer.</li>
+                    <li><strong>Menu-bar segment merging:</strong> fixed layout and interaction issues while segments merge or change size.</li>
+                    <li><strong>Stale menu-bar widths:</strong> fixed widths that could appear after sections collapse, expand, or refresh.</li>
+                    <li><strong>GlowBar positioning:</strong> fixed positioning when no persistent menu-bar items are present.</li>
+                    <li><strong>Fullscreen overlay state:</strong> fixed cases where a fullscreen app or a transparent fullscreen overlay could leave Glow's overlay in the wrong state.</li>
+                    <li><strong>Startup hang:</strong> fixed a case where the app could remain unresponsive while waiting for the initial menu-bar item snapshot.</li>
+                    <li><strong>Layout editor drag errors:</strong> drag failures no longer show a blocking error dialog.</li>
+                    <li><strong>Accessibility permission recovery:</strong> fixed recovery when Accessibility permission is revoked while Glow is running.</li>
                 </ul>
             ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/2.0.3/Glow-2.0.3.dmg" length="9195624" type="application/octet-stream" sparkle:edSignature="tqmX7XyRx0B1Jcn9wJsHapRmz/QBvgKhUeaobC49BK0hlqKlmcjrCJbPecuvlQxBPMPoxXKGfXg3LOYMT4mUBQ=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/2.1.3/Glow-2.1.3.dmg" length="9391216" type="application/octet-stream" sparkle:edSignature="ve3h87DCa3kJnGq/t+1q01R+G/PMprkkk+lQ/d7vPv6E3gImoihydZdTsMbIcPumhULbBqtdy2YAkYEHBKNCBA=="/>
         </item>
     </channel>
 </rss>
