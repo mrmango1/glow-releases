@@ -3,6 +3,49 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>3.0.0-beta.1</title>
+            <pubDate>Thu, 16 Jul 2026 15:11:06 +0000</pubDate>
+            <sparkle:version>10000</sparkle:version>
+            <sparkle:shortVersionString>3.0.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description>
+            <![CDATA[
+                <p><strong>First beta of Glow for macOS 27.</strong> Glow has been rebuilt from the ground up for the new menu bar in macOS 27. This build runs only on macOS 27.</p>
+
+                <h3>✨ New</h3>
+                <ul>
+                    <li><strong>Native macOS 27 support:</strong> a menu-bar engine rewritten for how macOS 27 composites status items, so hiding, showing, and reordering work with the new system.</li>
+                    <li><strong>Layout presets:</strong> save menu-bar arrangements and switch between them.</li>
+                    <li><strong>More Liquid Glass options:</strong> new Alt Style and Tight Shadow looks for the capsules.</li>
+                    <li><strong>Clearer layout editor:</strong> Settings &rsaquo; Sections now shows the real menu-bar icons.</li>
+                </ul>
+
+                <h3>⚡ Improved</h3>
+                <ul>
+                    <li><strong>Icon thumbnails:</strong> menu-bar icons are captured more reliably and look sharper in the layout editor.</li>
+                    <li><strong>Menu-bar scanning:</strong> removed redundant rescans for a lighter, more responsive menu bar.</li>
+                </ul>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>Fixed the hidden section not revealing on hover right after using the GlowBar toggle.</li>
+                    <li>Fixed clicking a floating menu-bar item from GlowBar.</li>
+                    <li>Fixed items such as Weather and Siri occasionally starting in the wrong section after launch.</li>
+                    <li>Fixed the Sections editor becoming unusable when the chevron fell off a crowded menu bar.</li>
+                    <li>Fixed cases where reordering menu-bar items did not take effect.</li>
+                    <li>Fixed capsule materials flickering while sections merge or resize.</li>
+                    <li>Fixed hover stopping working after the system temporarily disabled mouse monitoring.</li>
+                </ul>
+
+                <h3>⚠️ Known Issues</h3>
+                <ul>
+                    <li>This is an early beta on a beta OS. Menu-bar item capture and reordering may occasionally need a relaunch. Please report anything odd.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.0.0-beta.1/Glow-3.0.0-beta.1.dmg" length="6060310" type="application/octet-stream" sparkle:edSignature="BQRavAcghL0nhWuD4FN9v+hAOppvncQK2GQ4QfTsTAlO1Eb9b9SLm9NQdSI6W8+GP6oSLH8+VBr9uXIGW7sMCw=="/>
+        </item>
+        <item>
             <title>2.1.3</title>
             <pubDate>Thu, 09 Jul 2026 11:04:33 -0500</pubDate>
             <sparkle:version>1003</sparkle:version>
@@ -36,6 +79,7 @@
             ]]>
             </description>
             <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/2.1.3/Glow-2.1.3.dmg" length="9391216" type="application/octet-stream" sparkle:edSignature="ve3h87DCa3kJnGq/t+1q01R+G/PMprkkk+lQ/d7vPv6E3gImoihydZdTsMbIcPumhULbBqtdy2YAkYEHBKNCBA=="/>
+            <sparkle:maximumSystemVersion>26.99.99</sparkle:maximumSystemVersion>
         </item>
     </channel>
 </rss>
