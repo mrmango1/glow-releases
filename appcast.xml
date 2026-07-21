@@ -3,6 +3,34 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>3.0.0-beta.2</title>
+            <pubDate>Tue, 21 Jul 2026 20:56:41 +0000</pubDate>
+            <sparkle:version>10001</sparkle:version>
+            <sparkle:shortVersionString>3.0.0-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <sparkle:channel>beta</sparkle:channel>
+            <description>
+            <![CDATA[
+                <p><strong>A stability-focused beta that sharpens how Glow tracks, hides, and reorders your menu bar items — with fixes for cold-start icon leaks, third-party item identity, layout-editor dragging, and Item Search focus.</strong></p>
+
+                <h3>⚡ Improved</h3>
+                <ul>
+                    <li>Sharper, more stable menu bar icon capture — including the clock — so icons no longer flicker or show the wrong crop.</li>
+                </ul>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>Hidden menu bar icons no longer briefly leak into view right after launch.</li>
+                    <li>Fixed items from some third-party apps whose icons could fluctuate or land in the wrong place when dragged.</li>
+                    <li>Dragging items in the layout editor is now more reliable, with steadier identity and ordering.</li>
+                    <li>Reordering items within the visible section now behaves as expected.</li>
+                    <li>Item Search no longer steals keyboard focus from the app you’re using.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.0.0-beta.2/Glow-3.0.0-beta.2.dmg" length="6098445" type="application/octet-stream" sparkle:edSignature="NppeMtTXrrm9c69mr0yP8WKavUemANowjtRgQOxdSnmmGtmLP6kpV8quNZhEvyakRK3IBTX/m3UftlcBlyDDBA=="/>
+        </item>
+        <item>
             <title>3.0.0-beta.1</title>
             <pubDate>Thu, 16 Jul 2026 15:11:06 +0000</pubDate>
             <sparkle:version>10000</sparkle:version>
