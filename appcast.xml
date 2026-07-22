@@ -3,6 +3,45 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>2.2.0-beta.1</title>
+            <pubDate>Wed, 22 Jul 2026 04:45:29 +0000</pubDate>
+            <sparkle:version>1004</sparkle:version>
+            <sparkle:shortVersionString>2.2.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:maximumSystemVersion>26.99.99</sparkle:maximumSystemVersion>
+            <sparkle:channel>beta</sparkle:channel>
+            <description>
+            <![CDATA[
+                <p><strong>This beta adds macOS 26 item spacing controls and Floating groups, along with reliability and performance improvements across menu bar scanning, layout, and appearance.</strong></p>
+
+                <h3>✨ New</h3>
+                <ul>
+                    <li>Organize menu bar items into logical Floating groups, with full keyboard navigation and focus.</li>
+                    <li>New macOS 26 item spacing controls and a custom Glow menu bar icon.</li>
+                </ul>
+
+                <h3>⚡ Improved</h3>
+                <ul>
+                    <li>Faster, lower-memory menu bar scanning.</li>
+                    <li>More reliable detection of Control Center–hosted menu bar items.</li>
+                    <li>Smoother drag-and-drop placement between menu bar sections.</li>
+                    <li>System spacing overrides are now reversible and recover cleanly from partial applies.</li>
+                </ul>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>Fixed a startup loop that could repeatedly re-apply layout profiles.</li>
+                    <li>Fixed menu bar item icons occasionally failing to refresh.</li>
+                    <li>Fixed low-contrast Liquid Glass finishes in Simple mode by switching them to Frosted.</li>
+                    <li>Fixed layout profiles incorrectly including system-managed menu bar items.</li>
+                    <li>Fixed a rare crash caused by power and thermal notifications handled off the main thread.</li>
+                    <li>Improved stability when the system reports invalid menu bar material values.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/2.2.0-beta.1/Glow-2.2.0-beta.1.dmg" length="10682300" type="application/octet-stream" sparkle:edSignature="Tcx7ZcBFtxs26hKA0M/KuQcvyzSNW75873ROn29/XHHZOB8iJFtUD794FuKOMOXpG/XMwrkjtefD61S4nE8aDQ=="/>
+        </item>
+        <item>
             <title>3.0.0-beta.2</title>
             <pubDate>Tue, 21 Jul 2026 20:56:41 +0000</pubDate>
             <sparkle:version>10001</sparkle:version>
