@@ -3,6 +3,28 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>3.0.0-beta.3</title>
+            <pubDate>Thu, 23 Jul 2026 16:52:08 +0000</pubDate>
+            <sparkle:version>10002</sparkle:version>
+            <sparkle:shortVersionString>3.0.0-beta.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <sparkle:channel>beta</sparkle:channel>
+            <description>
+            <![CDATA[
+                <p><strong>This beta focuses on menu bar stability: item positioning, third-party icons, and overlay behavior on smaller displays.</strong></p>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>Fixed occasional duplicate or misplaced icons for some third-party menu bar items.</li>
+                    <li>Fixed positioning and ordering of items in the hidden section.</li>
+                    <li>Fixed split menu bar capsules sometimes collapsing to zero width after capturing icons.</li>
+                    <li>Fixed the menu bar overlay behaving incorrectly when switching desktops with a maximized window on smaller displays.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.0.0-beta.3/Glow-3.0.0-beta.3.dmg" length="6112307" type="application/octet-stream" sparkle:edSignature="7UXnE9+8WWIgy7mD7bV7kgkwoMjTvuuOpCv4Rh2O0fYCihlTjN17/KYzdIBxlTl539wSBXPKJM8TpflAgowqCw=="/>
+        </item>
+        <item>
             <title>2.2.0-beta.1</title>
             <pubDate>Wed, 22 Jul 2026 04:45:29 +0000</pubDate>
             <sparkle:version>1004</sparkle:version>
