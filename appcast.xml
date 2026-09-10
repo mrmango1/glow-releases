@@ -3,6 +3,62 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>3.0.0</title>
+            <pubDate>Thu, 10 Sep 2026 20:02:58 +0000</pubDate>
+            <sparkle:version>12000</sparkle:version>
+            <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description>
+            <![CDATA[
+                <p><strong>Glow 3.0 is the first release built on a rewritten core: one codebase behind both macOS 26 and macOS 27, in place of a separate build for each. Almost none of that work is visible, which is why this release took a while and why it is light on new features. What is new here is chiefly the redesigned Settings and Moods, a much faster way to change how your menu bar looks. It is still being polished.</strong></p>
+
+                <h3>✨ New</h3>
+                <ul>
+                    <li>Settings has been rebuilt: a new structure and navigation, search that reaches every pane, and a Native accent mode that draws real system components instead of only tinting them.</li>
+                    <li>Moods: save a complete look (shape, material, colors and corners) as a named Mood and switch between them in one click. Each display can wear its own, and a Mood can dress the desktop too, setting a matching wallpaper.</li>
+                    <li>Quick Settings: the appearance editor, redesigned and renamed to say what it actually is. Change how the menu bar looks from the menu bar itself, without opening Settings.</li>
+                    <li>Rounded screen corners: round the corners of any display, at the radius you pick.</li>
+                    <li>Three menu bar styles on a single axis: Single, Paired and Sections. With Single and the inset off, the bar sits flush with the screen edge and gets its own bottom-corner control, including a flared edge.</li>
+                    <li>The Sections pane has two shapes, and moving an item between sections no longer requires dragging it.</li>
+                    <li>A Permissions page that tells you which access is missing, what it unlocks, and takes you straight to the right place in System Settings.</li>
+                    <li>German, Spanish and Japanese are fully translated.</li>
+                </ul>
+
+                <h3>⚡ Improved</h3>
+                <ul>
+                    <li>Menu bar scanning runs off the main thread, so the interface stays responsive while Glow works.</li>
+                    <li>Item Search opens instantly: its list is built once, ahead of your first use.</li>
+                    <li>Opening Sections no longer re-scans and reveals the whole menu bar every time, which was costing 4.7 seconds per open.</li>
+                    <li>Glass Style in Simple mode now offers a trimmed set of finishes instead of an over-full list. Every variant is still there in Advanced.</li>
+                    <li>Items in Floating now keep their own order, saved by Glow, so reordering there works without Full Disk Access.</li>
+                </ul>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>Reordering menu bar items did nothing on macOS 27. macOS changed where it keeps item order during the 27 betas; Glow now writes to the right place. See Known Issues for the access it needs.</li>
+                    <li>Turning off the Collapsible section moved all of its items to Floating with no way back: re-enabling it left the section permanently empty.</li>
+                    <li>The menu bar came up fully expanded even when you had left it collapsed. The saved layout was only applied when something changed, never at startup.</li>
+                    <li>The clock stopped opening Notification Center as soon as anything was hidden, whatever you hid.</li>
+                    <li>"Show Overlay" did nothing: with two displays, all three scopes left both overlays visible.</li>
+                    <li>The menu bar capsule was drawn at the wrong size on a display that is not hosting the menu bar.</li>
+                    <li>Two rows could appear with the same icon, and Time Machine could show up as a VPN entry.</li>
+                    <li>A layout that failed to apply was never retried, neither automatically nor from the Retry button.</li>
+                    <li>Show on Hover could be dead after launch, and could trigger on a tremor at the edge of the reveal region instead of a real crossing into it.</li>
+                    <li>Clicks could be swallowed by the GlowBar panel: the strip of menu bar beneath it went dead, and reopening the panel could take two clicks.</li>
+                    <li>Fixed a stray capsule being drawn around a control that was no longer in the menu bar, and the section capsules taking a couple of seconds to appear on a second display.</li>
+                </ul>
+
+                <h3>⚠️ Known Issues</h3>
+                <ul>
+                    <li>This release is for macOS 27. macOS 26 stays on the 2.x line until the unified build finishes testing.</li>
+                    <li>On macOS 27, reordering items in the menu bar itself requires Full Disk Access, and so does the Collapsible section, because macOS keeps item order in a protected location. Glow tells you so in Permissions instead of silently doing nothing. Floating keeps its own order and works without the permission.</li>
+                    <li>Glow is still being polished. This build ships on the stable channel because there is not yet a polished stable release, so expect frequent updates.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.0.0/Glow-3.0.0.dmg" length="13402034" type="application/octet-stream" sparkle:edSignature="JP+wCM5GV/TCAnKbtQmvJQAbuuTNLTF6ZXOjNwqqmP4EcaOYhxpx02AGh86BZjvc4zlZSzJy2KK7r5C1dhskAw=="/>
+        </item>
+        <item>
             <title>3.0.0-beta.3</title>
             <pubDate>Thu, 23 Jul 2026 16:52:08 +0000</pubDate>
             <sparkle:version>10002</sparkle:version>
