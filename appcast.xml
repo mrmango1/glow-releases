@@ -3,6 +3,33 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>3.0.1</title>
+            <pubDate>Sat, 12 Sep 2026 17:18:02 +0000</pubDate>
+            <sparkle:version>12001</sparkle:version>
+            <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description>
+            <![CDATA[
+                <p><strong>A fast follow-up to 3.0. An app opened after Glow now shows its icon instead of staying invisible, reordering menu bar items no longer asks for Full Disk Access, and the menu bar capsule no longer grows without shrinking back.</strong></p>
+
+                <h3>✨ New</h3>
+                <ul>
+                    <li>Reordering menu bar items no longer needs Full Disk Access. Glow asks you to pick one file in a panel instead, and macOS grants access to just that file. This replaces the permission 3.0.0 asked for, and the Collapsible section comes with it.</li>
+                </ul>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>An app opened after Glow could stay invisible: its icon was never drawn and Glow did not list it. Quitting and reopening Glow was the only way out.</li>
+                    <li>The menu bar capsule could come out the wrong width. It grew as you expanded and collapsed it and never shrank back, and it could sit narrower than what it wraps.</li>
+                    <li>Items in Always Visible could end up to the left of Glow's own icon, and stay there.</li>
+                    <li>Dragging an item out of the Always Visible row did nothing, which also blocked moving an item into Collapsible.</li>
+                    <li>A permission granted after startup was ignored for the rest of the session.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.0.1/Glow-3.0.1.dmg" length="13448104" type="application/octet-stream" sparkle:edSignature="rYMnA+C60HxIB9z3j6tylhaabzjOkSOq9GO0/gayxS2ginHdfIJLo+topmiba3giUWVwLZcOW5DkAxWbylF4AQ=="/>
+        </item>
+        <item>
             <title>3.0.0</title>
             <pubDate>Thu, 10 Sep 2026 20:02:58 +0000</pubDate>
             <sparkle:version>12000</sparkle:version>
