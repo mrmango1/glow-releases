@@ -15,12 +15,10 @@
                 <h3>✨ New</h3>
                 <ul>
                     <li>A redesigned welcome window guides you through setup and explains the permissions Glow needs.</li>
-                    <li>Existing users can explore the new welcome experience once after updating.</li>
                 </ul>
 
                 <h3>⚡ Improved</h3>
                 <ul>
-                    <li>A single Default Mood gives you a consistent starting point for customizing your menu bar.</li>
                     <li>Improved responsiveness when showing and hiding menu bar items.</li>
                 </ul>
 
@@ -28,12 +26,11 @@
                 <ul>
                     <li>Fixed menu bar backgrounds using the wrong dimensions on multiple displays.</li>
                     <li>Fixed missing backgrounds when switching back from the native appearance.</li>
-                    <li>Fixed Shape Merge updates distorting rounded corners.</li>
                     <li>Fixed clicks on neighboring Mood cards and protected reserved Mood names.</li>
                     <li>Fixed preset changes bringing back duplicate menu bar items.</li>
                     <li>Fixed clicks on a covered Glow icon failing to toggle its section.</li>
                 </ul>
-            ]]>
+]]>
             </description>
             <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.1.0/Glow-3.1.0.dmg" length="13603371" type="application/octet-stream" sparkle:edSignature="tWTmemTbTKeB9SjBJj4uF3hKmAwp48N9YGLf1XUYF2YQpe0GuF3ex6rEf9NssC/GDGfZKUAX2CLa+Mz2dedQDA=="/>
         </item>
