@@ -3,6 +3,39 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>3.1.3</title>
+            <pubDate>Tue, 22 Sep 2026 20:47:19 +0000</pubDate>
+            <sparkle:version>12004</sparkle:version>
+            <sparkle:shortVersionString>3.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description>
+            <![CDATA[
+                <p><strong>Setup and licensing now share one window, and Quick Settings fades in and out.</strong></p>
+
+                <h3>✨ New</h3>
+                <ul>
+                    <li>The welcome window writes Glow's name in glass, and the license screen now lives in the same window.</li>
+                    <li>Quick Settings now fades in and out.</li>
+                </ul>
+
+                <h3>⚡ Improved</h3>
+                <ul>
+                    <li>Items from the same app now move between sections together, because macOS hides them together.</li>
+                    <li>Mood previews now show the app menu, and their capsule fits it the way it does on the real menu bar.</li>
+                    <li>The Moods carousel fades at its edges and explains how to center, apply and browse Moods.</li>
+                    <li>Quick Settings uses your system accent color.</li>
+                </ul>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>A mistyped license key could lock Glow for the rest of the session, even while the trial was still available.</li>
+                    <li>Some menu bar icons, like iStat Menus from Setapp, stayed hidden while Glow was running, whatever section they were in. Glow now marks them and can fix them with one click.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.1.3/Glow-3.1.3.dmg" length="13908964" type="application/octet-stream" sparkle:edSignature="ZlnyOPWazGADIZxFkEjk/6B/r4FHJWiFpxEzaew8B8nnDo/6OXCfWNembnVD/XmG/33yAjD8+kyG+JhN7pyMDg=="/>
+        </item>
+        <item>
             <title>3.1.0</title>
             <pubDate>Wed, 16 Sep 2026 20:57:38 +0000</pubDate>
             <sparkle:version>12002</sparkle:version>
