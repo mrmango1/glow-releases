@@ -3,6 +3,42 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>3.1.6</title>
+            <pubDate>Wed, 23 Sep 2026 22:44:00 +0000</pubDate>
+            <sparkle:version>12005</sparkle:version>
+            <sparkle:shortVersionString>3.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description>
+            <![CDATA[
+                <h3>✨ New</h3>
+                <ul>
+                    <li>Hide Strategy has a fourth option, Never, that keeps revealed items on screen until you hide them yourself.</li>
+                    <li>Glow now notices when "Show menu bar background" or Reduce transparency makes the menu bar opaque, and tells you why its style is not showing.</li>
+                    <li>If macOS stops applying your item order, Sections offers a Restart Menu Bar button to recover it.</li>
+                </ul>
+
+                <h3>⚡ Improved</h3>
+                <ul>
+                    <li>A setting that depends on another one stays visible and disabled, and its info button says what turns it on.</li>
+                    <li>Info buttons in Settings open when you hover over them.</li>
+                    <li>Collapsible and Floating have their on/off switch at the top of their page.</li>
+                    <li>The Sections page groups its bars and hints in a card, like the rest of Settings.</li>
+                </ul>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>On macOS 27, some items (like iStat Menus or Xcode) could stay in place after being dragged, or split between sections.</li>
+                    <li>Revealing hidden items could move Glow's icon, and some items appeared to its right.</li>
+                    <li>The Floating bar rarely opened on hover after clicking the desktop, and the trackpad could tap repeatedly.</li>
+                    <li>With two displays, hovering over the menu bar did not reveal Collapsible items on the display that shows Glow's icons.</li>
+                    <li>The third section was sometimes called Always Hidden. It is now always Floating.</li>
+                    <li>Settings could briefly show a License Required screen while Glow was starting.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.1.6/Glow-3.1.6.dmg" length="14060622" type="application/octet-stream" sparkle:edSignature="NMwT/qgKVFSrgco+8G5SQry1ksIHTyUDBp5qJPXEFdlm4qS77Yrgu0iDmGHWb9tbTM80bp+qAoVn3Paa5RGJAg=="/>
+        </item>
+        <item>
             <title>3.1.3</title>
             <pubDate>Tue, 22 Sep 2026 20:47:19 +0000</pubDate>
             <sparkle:version>12004</sparkle:version>
