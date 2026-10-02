@@ -3,6 +3,58 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>3.2.0</title>
+            <pubDate>Fri, 02 Oct 2026 16:25:33 +0000</pubDate>
+            <sparkle:version>12006</sparkle:version>
+            <sparkle:shortVersionString>3.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description>
+            <![CDATA[
+                <h3>✨ New</h3>
+                <ul>
+                    <li>Glass capsules light up when the pointer passes over them. You can turn this off in Low Power.</li>
+                    <li>New shortcut that shows the whole menu bar while you hold it.</li>
+                    <li>You can now choose the border color.</li>
+                </ul>
+
+                <h3>⚡ Improved</h3>
+                <ul>
+                    <li>New animation for the GlowBar and Item Search when Shape-merge is off.</li>
+                    <li>Quick Settings opens and closes with a new animation.</li>
+                    <li>At launch, the menu bar appears directly in its final look, without flickering.</li>
+                    <li>Quick Settings always looks dark, even in Light mode.</li>
+                    <li>In Quick Settings, the Mood cards on the sides are easier to see.</li>
+                </ul>
+
+                <h3>🗑️ Removed</h3>
+                <ul>
+                    <li>The Alternate Style option.</li>
+                    <li>The Tight Shadow option, which had no visible effect.</li>
+                </ul>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>The Bare glass finish is available again, only in the Single style.</li>
+                    <li>The Collapsible capsule sometimes stayed open after hiding items.</li>
+                    <li>Opening Notification Center from the clock left hidden items visible.</li>
+                    <li>With two displays, showing and hiding items could stop working on the display without focus.</li>
+                    <li>On MacBooks with a notch, the Collapsible capsule could be wider than it should.</li>
+                    <li>The Collapsible capsule cut off the first item on the left.</li>
+                    <li>Paired and Sections capsules disappeared when switching Spaces.</li>
+                    <li>The app menu capsule could keep the wrong width after switching Spaces.</li>
+                    <li>The GlowBar looked empty when switching Spaces.</li>
+                    <li>A click right after using the clock could get stuck as if you were still dragging.</li>
+                    <li>Glow could stop responding for a few seconds when another app was frozen.</li>
+                    <li>Glow's Apple logo did not hide when macOS automatically hides the menu bar.</li>
+                    <li>The window went blank after activating a license.</li>
+                    <li>The welcome window could open behind other windows or under Settings.</li>
+                    <li>The Moods carousel was off center after swiping with the trackpad.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.2.0/Glow-3.2.0.dmg" length="14664254" type="application/octet-stream" sparkle:edSignature="NRcF3mVAPCOxJNfvtwdCLNoSenlAnxAJgUiehlLxXY8CX+Msb9Io7NHFhfFJq1GJgPT0zNHaGNhVXIKTXsf9Aw=="/>
+        </item>
+        <item>
             <title>3.1.6</title>
             <pubDate>Wed, 23 Sep 2026 22:44:00 +0000</pubDate>
             <sparkle:version>12005</sparkle:version>
