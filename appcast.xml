@@ -3,6 +3,56 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>3.4.0-beta.1</title>
+            <pubDate>Tue, 20 Oct 2026 18:35:08 +0000</pubDate>
+            <sparkle:version>20001</sparkle:version>
+            <sparkle:shortVersionString>3.4.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:channel>beta</sparkle:channel>
+            <description>
+            <![CDATA[
+                <p><strong>Moods can now set up your whole desktop. This is a beta, so expect some rough edges.</strong></p>
+
+                <h3>✨ New</h3>
+                <ul>
+                    <li>Moods can carry Actions: a Layout, a Dock, a shortcut, a desktop and a Focus.</li>
+                    <li>A Mood can remember your last desktop and bring it back when you return to it.</li>
+                    <li>Hiding items no longer removes Live Activities from the bar.</li>
+                    <li>Expanding Collapsible also opens the «<<» overflow, so hidden items show right away.</li>
+                </ul>
+
+                <h3>⚡ Improved</h3>
+                <ul>
+                    <li>Live Activities now sit inside the Collapsible capsule instead of next to it.</li>
+                    <li>Settings are organized in fewer, clearer groups.</li>
+                    <li>Siri, Time Machine and VPN can now be moved to any section.</li>
+                    <li>Each item in the Items editor shows a tip with its name and group.</li>
+                    <li>Clicking an item hidden behind «<<» in the GlowBar or Glow Search now opens it.</li>
+                    <li>Smoother Collapsible animation.</li>
+                    <li>Mood cards load faster and show the desktop as it looks on screen.</li>
+                </ul>
+
+                <h3>🗑️ Removed</h3>
+                <ul>
+                    <li>The ProMotion switch. It made little difference to performance, so it is now always on.</li>
+                    <li>The Low Power page. Its options now live in Visuals.</li>
+                </ul>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>In full screen with a notch, a window in Fill turned off every capsule.</li>
+                    <li>The «<<» overflow button showed up as an item in Settings.</li>
+                </ul>
+
+                <h3>⚠️ Known Issues</h3>
+                <ul>
+                    <li>Mood Actions are new and may not restore every window in its exact place.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.4.0-beta.1/Glow-3.4.0-beta.1.dmg" length="19158184" type="application/octet-stream" sparkle:edSignature="VjZVwlVx+JajhPFDwAd6B0z7FKCRXiYgsDgr2uALhJ/0rF01xUC0+RSH2RiegT6HamzQLWFayacKtNwxKckNCg=="/>
+        </item>
+        <item>
             <title>3.3.3</title>
             <pubDate>Fri, 16 Oct 2026 21:44:47 +0000</pubDate>
             <sparkle:version>20000</sparkle:version>
