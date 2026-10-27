@@ -3,6 +3,64 @@
     <channel>
         <title>Glow</title>
         <item>
+            <title>3.4.0</title>
+            <pubDate>Tue, 27 Oct 2026 21:07:56 +0000</pubDate>
+            <sparkle:version>20100</sparkle:version>
+            <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description>
+            <![CDATA[
+                <p><strong>Moods can now set up your Layout, Dock and shortcuts, with a new transition when you switch.</strong></p>
+
+                <h3>✨ New</h3>
+                <ul>
+                    <li>Moods can carry Actions: a Layout, a Dock, a shortcut and a Focus.</li>
+                    <li>Mood Transition: switching Moods blurs the screen and blends in the new bar and wallpaper.</li>
+                    <li>Each Layout remembers which sections are on (Collapsible, Floating and Floating Groups).</li>
+                    <li>New Hidden place for menu bar items you never want to see.</li>
+                    <li>Expanding Collapsible also opens the «<<» overflow, so hidden items show right away.</li>
+                    <li>Hiding items no longer removes Live Activities from the bar.</li>
+                    <li>License plans for 1, 2 and 3 Macs.</li>
+                </ul>
+
+                <h3>⚡ Improved</h3>
+                <ul>
+                    <li>Live Activities now sit inside the Collapsible capsule instead of next to it.</li>
+                    <li>Settings are organized in fewer, clearer groups.</li>
+                    <li>Siri, Time Machine and VPN can now be moved to any section.</li>
+                    <li>Each item in the Items editor shows a tip with its name and group.</li>
+                    <li>Clicking an item hidden behind «<<» in the GlowBar or Glow Search now opens it.</li>
+                    <li>Smoother Collapsible animation.</li>
+                    <li>Mood cards load faster and show the sections and Dock a Mood puts on.</li>
+                    <li>The Low Power module in Quick Settings is now Visual Effects.</li>
+                    <li>Turning off a theme switch gives macOS back its original colors and icons.</li>
+                    <li>Items in a new app reach their section sooner.</li>
+                    <li>Turning off a section moves its items to the other one, so none are left out of reach.</li>
+                </ul>
+
+                <h3>🗑️ Removed</h3>
+                <ul>
+                    <li>The ProMotion switch. It made little difference to performance, so it is now always on.</li>
+                    <li>The Low Power page. Its options now live in Visuals.</li>
+                </ul>
+
+                <h3>🛠️ Fixed</h3>
+                <ul>
+                    <li>In full screen with a notch, a window in Fill turned off every capsule.</li>
+                    <li>Entering your license again on the same Mac used up another seat.</li>
+                    <li>Choosing a look during onboarding changed the colors of macOS.</li>
+                    <li>Little Snitch 7 beta did not appear in Items and could not be hidden.</li>
+                    <li>Apps switched off in the macOS menu bar settings did not appear in any section.</li>
+                    <li>The chevron was missing after granting Menu Bar Files with Glow open.</li>
+                    <li>The capsule kept its space for a moment after a Live Activity ended.</li>
+                    <li>Clicking on another display left the menu capsule as wide as the previous app.</li>
+                    <li>Moving from the Floating icon to the chevron vibrated twice.</li>
+                </ul>
+            ]]>
+            </description>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.4.0/Glow-3.4.0.dmg" length="19591950" type="application/octet-stream" sparkle:edSignature="z8rT5/kg/mSCtinMXbt2//FrlBlNQkorqyoTkIgbT+Du/QgI7wSDd9OjRZtqskkoafuFDAe/njuAaXgKSHnQDQ=="/>
+        </item>
+        <item>
             <title>3.4.0-beta.1</title>
             <pubDate>Tue, 20 Oct 2026 18:35:08 +0000</pubDate>
             <sparkle:version>20001</sparkle:version>
