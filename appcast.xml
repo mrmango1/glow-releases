@@ -4,32 +4,43 @@
         <title>Glow</title>
         <item>
             <title>3.6.0</title>
-            <pubDate>Sun, 22 Nov 2026 19:21:56 +0000</pubDate>
-            <sparkle:version>20119</sparkle:version>
+            <pubDate>Mon, 23 Nov 2026 15:52:25 +0000</pubDate>
+            <sparkle:version>20120</sparkle:version>
             <sparkle:shortVersionString>3.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description>
             <![CDATA[
-                <p><strong>Report a Problem, a warning for missing permissions, even less CPU and fixes for capsules, icons and Items.</strong></p>
+                <p><strong>Hidden on macOS 26, even less CPU and fixes for capsules, icons and Items.</strong></p>
 
                 <h3>✨ New</h3>
                 <ul>
+                    <li>The Hidden section now works on macOS 26 too.</li>
                     <li>While a game is in full screen, Glow stops revealing on hover and uses even less CPU.</li>
                 </ul>
 
                 <h3>⚡ Improved</h3>
                 <ul>
                     <li>System Permissions in Settings shows a warning when a permission is missing.</li>
+                    <li>On macOS 27.3, Glow explains what it uses Accessibility for before asking for it.</li>
+                    <li>System Permissions marks Accessibility as Limited when it only covers some apps.</li>
                     <li>Glow uses even less CPU when apps open and while the GlowBar is open.</li>
                     <li>On a crowded bar, «<<» joins the next capsule instead of getting its own.</li>
                     <li>User and Timer show their own icons in Items.</li>
+                    <li>The Floating Bar and Collapsible can use a new Dots icon.</li>
                 </ul>
 
                 <h3>🛠️ Fixed</h3>
                 <ul>
                     <li>Icons in hidden sections could show pieces of other items or menus.</li>
+                    <li>After a move, an item could show a neighbor's icon.</li>
                     <li>Items from apps with several icons, like iStat Menus, could get mixed up.</li>
+                    <li>Items from some apps, like rubarb.bar, snapped back after every drag.</li>
+                    <li>Dragging OneDrive to a hidden section could snap back.</li>
+                    <li>Two OneDrive accounts did not stay together after a drag.</li>
                     <li>Hovering or clicking «<<» could open the GlowBar.</li>
+                    <li>With an opaque menu bar, clicking the app menus opened the GlowBar.</li>
+                    <li>With Instant, the GlowBar closed when the pointer went just past it.</li>
+                    <li>With Hover, clicking the Floating Bar icon opened its menu over the GlowBar.</li>
                     <li>Items took too long to hide after collapsing a crowded bar.</li>
                     <li>In Paired, the collapsed capsule left empty space before «<<».</li>
                     <li>In Paired, the capsule shrank before its items had hidden.</li>
@@ -37,11 +48,17 @@
                     <li>The menu capsule kept the previous app's width when a menu bar app opened a window.</li>
                     <li>Items listed Timer and Now Playing while they were not in the menu bar.</li>
                     <li>User disappeared after moving it to Floating.</li>
+                    <li>Turning off Time Machine or VPN in System Settings could hide Siri.</li>
+                    <li>Weather next to the GlowBar button showed a placeholder icon in Settings.</li>
                     <li>The + button in Items listed all Control Center items as one and moved them together.</li>
+                    <li>Searching in Items covered the first result.</li>
+                    <li>On macOS 27.3, Grant for Accessibility did nothing.</li>
+                    <li>After granting Menu Bar Files, Glow could keep showing it as missing until restarted.</li>
+                    <li>Moving an app that opens at login to Applications did not last.</li>
                 </ul>
             ]]>
             </description>
-            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.6.0/Glow-3.6.0.dmg" length="19993771" type="application/octet-stream" sparkle:edSignature="NndD6qoOQZJzuvbSgCdHLyzlgNowFg4kMqttoMD5mbhEIkXD6V/5R7XE5bQBPmYhbHV6k4ysAmA/l86Ags+hBQ=="/>
+            <enclosure url="https://github.com/mrmango1/glow-releases/releases/download/3.6.0/Glow-3.6.0.dmg" length="20193525" type="application/octet-stream" sparkle:edSignature="k0eRXdmzqLlXgFOkfm7OFz/asI98l57Om5sY9/YPrbfgpDP6HPalAx6Tuqu2Vd2EY5KAdURw0JvXnM4vTQ14DA=="/>
         </item>
         <item>
             <title>3.5.0</title>
